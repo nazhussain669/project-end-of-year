@@ -1,0 +1,43 @@
+body {
+  	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	background: #ebdff0;
+}
+
+#clock {
+	padding: 50px;
+	width: 50%;
+	font-family: 'Courier New', Courier, monospace;
+	text-align:center;
+  	background: #111;
+  	color: #dda3f0;
+  	align-items: center;
+  	font-size: 100px;
+  	font-weight: bold;
+  	letter-spacing: 2px;
+}
+
+#date{
+	padding: 50px;
+	width: 50%;
+	font-family: 'Courier New', Courier, monospace;
+	text-align:center;
+  	color: black;
+  	align-items: center;
+  	font-size: 50px;
+  	letter-spacing: 2px;
+}
+
+
+button{
+	margin: 30px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: white;
+	font-size: 16px;
+	color: black;
+}
