@@ -1,0 +1,56 @@
+body {
+	font-family: "Dancing Script", cursive;
+	background-color: #ebdff0;
+	margin: 40px;
+	color: #333;
+	text-align: center
+}
+
+h1{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+
+label{
+	color: black;
+}
+
+input{
+	
+	margin: 5px;
+	width:150px;
+}
+
+button{
+	margin: 5px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #005fa3;
+	font-size: 16px;
+	color: white;
+}
+
+button:hover {
+	background-color: green;
+
+}
+
+#backbtn{
+	margin-left: 1300px;
+}
+#btnEasy{
+	background-color:yellow;
+	color: black;
+}
+
+#btnMedium{
+	background-color:Orange;
+	color: black;
+}
+
+#btnHard{
+	background-color:pink;
+	color: black;
+}

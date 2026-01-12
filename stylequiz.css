@@ -1,0 +1,59 @@
+body {
+	font-family: "Dancing Script", cursive;
+	background-color: white;
+	margin: 40px;
+	color: #333;
+	
+}
+
+h1{
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+
+label{
+	color: black;
+}
+
+input{
+	
+	margin: 5px;
+	width:150px;
+}
+
+button{
+	margin: 5px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	background-color: #005fa3;
+	font-size: 16px;
+	color: white;
+}
+
+button:hover {
+
+	background-color: green;
+
+}
+#options{
+	margin: 20px 30px;
+
+}
+
+
+#showscore{
+	text-align: center;
+	font-size: 30px;
+	background-color: skyblue;
+}
+
+#showname{
+	width: 100px;
+	padding: 5px;
+	float: right;
+	font-size: 20px;
+	border: 1px solid black;
+	
+}
