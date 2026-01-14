@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="listapp4.css">
+    <script src="listapp2.js"></script>
+    <script src="listapp3.js"></script>
+</head>
+<body>
+
+    <h2>Enter Tasks For This Week</h2>
+    <h3>Select a day from the dropdown to add a task.</h3>
+    <h3>Type the task number in the box to complete or delete a task.</h3>
+
+    <label>Task:</label>
+    <input type="text" id="txtTask">
+
+    <label>Day:</label>
+    <select id="daySelect">
+        <option value="Sunday">Sunday</option>
+        <option value="Monday">Monday</option>
+        <option value="Tuesday">Tuesday</option>
+        <option value="Wednesday">Wednesday</option>
+        <option value="Thursday">Thursday</option>
+        <option value="Friday">Friday</option>
+        <option value="Saturday">Saturday</option>
+    </select>
+
+    <button id="btnAdd">Add</button><br><br>
+
+    <!-- Display all tasks-->
+    <label>Tasks List:</label><br>
+    
+    <textarea id="taskList" readonly></textarea><br><br> <!-- readonly cannot be edited -->
+    
+    <label>Enter task number to complete or delete:</label>
+    <input type="text" id="taskNumber">
+    
+    <button id="btnComplete">Complete</button>
+    <button id="btnDelete">Delete</button><br><br>
+    
+    <input type="text" id="txtFileName" placeholder="Enter file name">
+    <button id="btnCreateFile">Create File</button>
+
+    <button id="btnMainMenu">Main Menu</button>
+
+    <br><br>
+
+    <div id="tableDiv">
+        <table id="tblweek">
+            <thead>
+                <tr>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="tdSunday"></td> <!-- Each cell has an ID-->
+                    <td id="tdMonday"></td>
+                    <td id="tdTuesday"></td>
+                    <td id="tdWednesday"></td>
+                    <td id="tdThursday"></td>
+                    <td id="tdFriday"></td>
+                    <td id="tdSaturday"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br><br>
+
+    <img src="stickynote.jpg" alt="Sticky Note" width="300" height="300">
+    <img src="days.jpg" alt="Days of the Week" width="300" height="300">
+
+</body>
+</html>
