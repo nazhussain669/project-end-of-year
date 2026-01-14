@@ -50,7 +50,7 @@ function updateTaskList()
 // Complete task
 function completeTask()
 {
-    let num = Number(document.getElementById("taskNumber").value) - 1; //Converts that string into a number
+    let num = parseInt(document.getElementById("taskNumber").value) - 1; //Converts that string into a number
 
     if (isNaN(num) || num < 0 || num >= tasks.length)
     {
@@ -64,7 +64,7 @@ function completeTask()
 // Delete task
 function deleteTask()
 {
-    let num = Number(document.getElementById("taskNumber").value) - 1;
+    let num = parseInt(document.getElementById("taskNumber").value) - 1;
 
     if (isNaN(num) || num < 0 || num >= tasks.length)
     {
@@ -113,3 +113,4 @@ function Main()
 {
 	window.location.href = "mainscreen1.html"; // Go to main menu
 }
+
