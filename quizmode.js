@@ -3,8 +3,8 @@ let correctAnswers = {};
 let score = 0;
 
 const correctAnswersEasy = {1:'d', 2:'b', 3:'c', 4:'a', 5:'b', 6:'a', 7:'b', 8:'b', 9:'c', 10:'d'};
-const correctAnswersMid = {1:'a', 2:'b', 3:'b', 4:'b', 5:'c', 6:'c', 7:'d', 8:'c', 9:'b', 10:'a'};
-const correctAnswersHard = {1:'b', 2:'b', 3:'a', 4:'b', 5:'c', 6:'d', 7:'d', 8:'a', 9:'b', 10:'a'};
+const correctAnswersMid = {1:'b', 2:'c', 3:'a', 4:'b', 5:'d', 6:'d', 7:'c', 8:'d', 9:'c', 10:'a'};
+const correctAnswersHard = {1:'c', 2:'b', 3:'a', 4:'c', 5:'d', 6:'b', 7:'c', 8:'a', 9:'c', 10:'c'};
 
 function addListener()
 {

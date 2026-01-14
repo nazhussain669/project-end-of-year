@@ -104,5 +104,5 @@ function createFile()
 function goToMainMenu()
 {
     // goes back to the mainscreen
-    window.location.href = "mainscreen1.html";
+    window.location.href = "mainscreen3.html";
 }

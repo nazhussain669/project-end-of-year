@@ -111,6 +111,5 @@ function updateTable()
 
 function Main()
 {
-	window.location.href = "mainscreen1.html"; // Go to main menu
+	window.location.href = "mainscreen3.html"; // Go to main menu
 }
-
